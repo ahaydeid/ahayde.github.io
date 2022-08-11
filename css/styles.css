@@ -632,7 +632,7 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 0.5 px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -4750,10 +4750,12 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
   background-color: #08ffef;
-  box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.75);
-  padding-inline-end: 0%;
+  box-shadow: 1px 1px 58px 3px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 1px 1px 58px 3px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 1px 58px 3px rgba(0, 0, 0, 0.63);
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
