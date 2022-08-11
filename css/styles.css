@@ -4314,7 +4314,7 @@ fieldset:disabled .btn {
 .navbar-nav {
   display: flex;
   flex-direction: column;
-  padding-left: 0;
+  text-align: center;
   margin-bottom: 0;
   list-style: none;
 }
@@ -11684,7 +11684,7 @@ p.lead {
     display: flex;
     align-items: flex-start;
     flex-grow: 0;
-    width: 100%;
+    width: 80%;
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
