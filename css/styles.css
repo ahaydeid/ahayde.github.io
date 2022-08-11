@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 107, 235, 244;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2531,7 +2531,7 @@ textarea.form-control-lg {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-   -webkit-print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
   color-adjust: exact;
 }
 .form-check-input[type="checkbox"] {
@@ -4749,6 +4749,11 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
+  background-color: #08ffef;
+  box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.75);
+  padding-inline-end: 0%;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
