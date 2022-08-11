@@ -11668,7 +11668,7 @@ p.lead {
     display: flex;
     flex-direction: column;
     width: 17rem;
-    height: 100vh;
+    height: 100%;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -11678,7 +11678,10 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.25rem solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 56px -9px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 56px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 56px -9px rgba(0, 0, 0, 0.75);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11742,7 +11745,6 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
   }
 }
 @media (min-width: 992px) {
