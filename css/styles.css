@@ -11684,7 +11684,7 @@ p.lead {
     display: flex;
     align-items: flex-start;
     flex-grow: 0;
-    width: 80%;
+    width: 100%;
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
@@ -11740,6 +11740,9 @@ section.resume-section .resume-section-content {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 }
 @media (min-width: 992px) {
