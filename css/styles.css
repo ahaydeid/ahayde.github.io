@@ -263,9 +263,6 @@ a {
   color: #3ebbe5;
   text-decoration: underline;
 }
-a:hover {
-  color: #974a2d;
-}
 
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -4750,9 +4747,9 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
   background-color: #08ffef;
-  box-shadow: 1px 1px 58px 3px rgba(0, 0, 0, 0.63);
-  -webkit-box-shadow: 1px 1px 58px 3px rgba(0, 0, 0, 0.63);
-  -moz-box-shadow: 1px 1px 58px 3px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 3px 33px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 3px 33px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 33px -4px rgba(0, 0, 0, 0.75);
   margin-left: 40px;
   margin-right: 40px;
   border-radius: 10px;
@@ -11679,9 +11676,6 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.25rem solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0px 0px 56px -9px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 56px -9px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 56px -9px rgba(0, 0, 0, 0.75);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11758,4 +11752,53 @@ section.resume-section .resume-section-content {
 
 .bi bi-whatsapp {
   background-color: green;
+}
+
+.footer {
+  background-color: #08ffef;
+}
+
+.col img:hover {
+  transition: 0.7s;
+  transform: scale(1.2);
+  box-shadow: 0px 3px 33px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 3px 33px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 33px -4px rgba(0, 0, 0, 0.75);
+  border-radius: 5%;
+}
+
+.card {
+  width: 90%;
+  height: 20rem;
+  border-radius: 5%;
+}
+
+.col {
+  box-sizing: border-box;
+  padding: 5px;
+  float: left;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.col img {
+  border-radius: 5%;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.card-body text {
+  position: absolute;
+}
+
+.col .card-body a {
+  border: 1px solid #08ffef;
+  padding: 8px;
+  border-radius: 15%;
+  text-decoration: none;
+}
+
+.col .card-body a:hover {
+  background-color: #08ffef;
+  color: #fff;
 }
