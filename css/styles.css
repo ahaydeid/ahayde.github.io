@@ -11721,6 +11721,8 @@ ul li {
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
   transform: scale(1.2);
+  rotate: 180%;
+  transition-duration: 0.5s;
 }
 
 .dev-icons {
@@ -11777,6 +11779,10 @@ section.resume-section .resume-section-content {
   width: 90%;
   height: 20rem;
   border-radius: 5%;
+  justify-content: center;
+  box-shadow: 0px 1px 84px -25px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 84px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 84px -25px rgba(0, 0, 0, 0.75);
 }
 
 .col {
@@ -11807,4 +11813,9 @@ section.resume-section .resume-section-content {
 .col .card-body a:hover {
   background-color: #08ffef;
   color: #fff;
+}
+
+.isi {
+  padding: 2rem;
+  border-radius: 2%;
 }
